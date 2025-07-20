@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Free Online Electronics & Electrical Tools - Circuit Calculators, Optimizers, and more." />
+  <meta name="keywords" content="electronics tools, electric calculator, circuit design, online optimizer, electrical tools" />
+  <meta name="author" content="YourName" />
+  <title>ElectroTools - Free Online Electronics & Electric Tools</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .main-header {
+      background: #1a73e8;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .main-header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091012184-7b61a2e6d2c6?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-primary {
+      background: #fbbc05;
+      color: black;
+      padding: 10px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn-primary:hover {
+      background: #e6a700;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin: 40px 0 20px;
+      text-align: center;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .tool-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .tool-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .tool-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .btn-secondary {
+      background: #1a73e8;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .btn-secondary:hover {
+      background: #1256b2;
+    }
+
+    footer {
+      background: #343a40;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      .main-header h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <h1><i class="fas fa-tools"></i> ElectroTools</h1>
+      <p>Your Hub for Online Electronics & Electric Tools</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Make Your Circuit Work Smarter</h2>
+      <p>Use our 100% free online calculators and optimization tools.</p>
+      <a href="#tools" class="btn-primary">Explore Tools</a>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section id="tools" class="tools-section">
+    <div class="container">
+      <h2 class="section-title">Available Tools</h2>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <h3>Ohm's Law Calculator</h3>
+          <p>Calculate voltage, current, resistance.</p>
+          <a href="ohms-law.html" class="btn-secondary">Open Tool</a>
+        </div>
+        <div class="tool-card">
+          <h3>Resistor Color Code</h3>
+          <p>Identify resistors using color bands.</p>
+          <a href="resistor-color.html" class="btn-secondary">Open Tool</a>
+        </div>
+        <div class="tool-card">
+          <h3>Box Level Optimizer</h3>
+          <p>Smart component selection for Level A/B/C.</p>
+          <a href="box-level.html" class="btn-secondary">Open Tool</a>
+        </div>
+        <div class="tool-card">
+          <h3>Capacitor Charge Time</h3>
+          <p>RC time constant & charging behavior.</p>
+          <a href="capacitor-timer.html" class="btn-secondary">Open Tool</a>
+        </div>
+        <!-- Add more tools as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Google AdSense (optional) -->
+  <div style="margin: 30px auto; text-align: center;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ElectroTools. Made with ❤️ for Engineers & Hobbyists.</p>
+    </div>
+  </footer>
+
+  <!-- AdSense Script -->
+  <script data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</body>
+</html>
